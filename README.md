@@ -1,36 +1,59 @@
-# 🚖 TaxiLinkSA
+🚖 TaxiLinkSA
 
-### A transport solution for South African commuters
+Smart, Safe & Seamless Transport for South Africa
 
-**Category:** Infrastructure & Essential Services  
-**Sector:** Transport  
-**Developer:** Tshephiso Gololo  
-**Hackathon:** FNB App of the Year Hackathon 2025  
+TaxiLinkSA is a digital transport solution designed to improve urban mobility by connecting commuters to nearest taxi ranks, live location tracking, and route directions — all through a modern and intuitive app interface.
 
----
 
-## 🌍 Project Overview
-TaxiLinkSA is a web app designed to help commuters find and plan local taxi routes easily.  
-It maps out routes, provides estimated fares and travel times, and aims to digitize access to public taxi transport.
+(Logo watermark — Purple & White theme)
 
----
+🗓️ Current Progress (Day 2)
+✅ Completed Features
 
-## 🧩 MVP Goal
-- Display a simple, interactive map.
-- Allow users to locate common taxi routes.
-- Provide estimated time or fare.
+Live Map Integration (Leaflet)
 
----
+Fully functional, interactive map centered on the user’s real-time location.
 
-## 🛠️ Tech Stack
-- **Frontend:** React + TypeScript (Vite)
-- **Styling:** TailwindCSS
-- **Maps:** Leaflet / Google Maps API
-- **Deployment:** Netlify
+Live Location Tracking
 
----
+Automatically detects and displays the commuter’s position on the map.
 
-## ⚙️ Setup Instructions
-```bash
-npm install
-npm run dev
+Nearest Taxi Ranks Display
+
+Shows multiple nearby taxi ranks with clickable markers.
+
+Get Directions
+
+Generates real-time routing from user’s location to selected taxi rank.
+
+Purple & White Theme UI
+
+A clean, modern interface matching TaxiLinkSA’s brand identity.
+
+Floating Action Button (FAB)
+
+Expands to show quick-access options: Locate Me, Nearby Ranks, and Directions.
+
+💪 In Progress (Next Milestones)
+
+Dashboard View: Add commuter stats, trip history, and safety feedback.
+
+Fare Estimator: Calculate estimated fare per trip.
+
+User Authentication: Basic login/signup functionality.
+
+Upload build to Sonke platform for team evaluation.
+
+🧰 Tech Stack
+Layer	Technology
+Frontend	React + TypeScript (Vite)
+Maps	Leaflet + React-Leaflet + Leaflet Routing Machine
+Styling	TailwindCSS (Purple/White theme)
+Hosting	Netlify
+Version Control	GitHub
+💜 Team TaxiLinkSA
+
+Location: Virtual (South Africa)
+Challenge Track: Infrastructure & Essential Services — Transport
+
+“TaxiLinkSA is building safer, smarter transport for everyone — one route at a time.”
